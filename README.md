@@ -26,3 +26,12 @@ python detection.py
 
 ## saving
 conda env export --no-builds > environment.yml
+
+```bash
+sudo apt update
+sudo apt upgrade
+sudo ubuntu-drivers list
+sudo apt install ubuntu-drivers-<version>
+mamba install pytorch torchvision torchaudio pytorch-cuda=12.2 -c pytorch -c nvidia
+mamba install opencv -c conda-forge
+```
